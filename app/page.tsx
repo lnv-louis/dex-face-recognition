@@ -265,9 +265,9 @@ export default function Dashboard() {
               </motion.button>
             </div>
 
-            {/* Square Camera */}
-            <div className="w-full aspect-square bg-black rounded-lg overflow-hidden border border-zinc-800 shadow-2xl">
-              <LiveCamera onCapture={handleCapture} isScanning={isScanning} onError={(e) => {}} />
+            {/* Smaller Square Camera */}
+            <div className="w-20 mx-auto aspect-square bg-black rounded-lg overflow-hidden border border-zinc-800 shadow-2xl">
+              <LiveCamera onCapture={handleCapture} isScanning={isScanning} />
             </div>
           </div>
 
